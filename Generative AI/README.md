@@ -1,23 +1,24 @@
 
+
 # Talk to a Database  
 
-This is an end to end LLM project based on Google Palm and Langchain. We are building a system that can talk to MySQL database. 
+This is an end to end LLM project based on OpenAI and Langchain. We are building a system that can talk to MsSQL database. 
 User asks questions in a natural language and the system generates answers by converting those questions to an SQL query and
 then executing that query on MySQL database. 
-AtliQ Tees is a T-shirt store where they maintain their inventory, sales and discounts data in MySQL database. A store manager 
+Paris data in MySQL database. A project manager 
 will may ask questions such as,
-- How many white color Adidas t shirts do we have left in the stock?
-- How much sales our store will generate if we can sell all extra-small size t shirts after applying discounts?
+- How many accounts are there in the database?
+- List all group having platform name 'Linux Server?
 The system is intelligent enough to generate accurate queries for given question and execute them on MySQL database
 
-![](atliq_tees.png)
+
 
 ## Project Highlights
 
-- AtliQ Tees is a t shirt store that sells Adidas, Nike, Van Heusen and Levi's t shirts 
-- Their inventory, sales and discounts data is stored in a MySQL database
+- Paris is a Previledge account access db 
+- Data stored in a MySQL database
 - We will build an LLM based question and answer system that will use following,
-  - Google Palm LLM
+  - OpenAI
   - Hugging face embeddings
   - Streamlit for UI
   - Langchain framework
@@ -61,10 +62,10 @@ streamlit run main.py
 2.The web app will open in your browser where you can ask questions
 
 ## Sample Questions
-  - How many total t shirts are left in total in stock?
-  - How many t-shirts do we have left for Nike in XS size and white color?
-  - How much is the total price of the inventory for all S-size t-shirts?
-  - How much sales amount will be generated if we sell all small size adidas shirts today after discounts?
+  - List all accounts?
+  - Provide group name for account name root?
+  - List all group having platform name 'Linux Server?
+
   
 ## Project Structure
 
